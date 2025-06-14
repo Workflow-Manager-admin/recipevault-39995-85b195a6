@@ -1,0 +1,21 @@
+/* RecipeVault global styles and palette */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --primary: #4caf50;
+  --secondary: #ffc107;
+  --accent: #ff5722;
+  --sidebar-bg: #f4f6fa;
+  --sidebar-border: #e0e0e0;
+  --content-bg: #fff;
+  --text-main: #222;
+  --text-muted: #7d7d7d;
+  --active-bg: #e8faed;
+}
+
+body {
+  margin: 0;
+  background: var(--content-bg);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  color: var(--text-main);
+}

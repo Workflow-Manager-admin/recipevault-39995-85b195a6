@@ -1,0 +1,26 @@
+<!-- RecipeVault Main Container -->
+<div class="container">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <span class="brand">RecipeVault</span>
+    </div>
+    <nav class="nav">
+      <a routerLink="/recipes" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span class="icon">&#127859;</span>
+        Recipes
+      </a>
+      <a routerLink="/categories" routerLinkActive="active">
+        <span class="icon">&#128218;</span>
+        Categories
+      </a>
+      <a routerLink="/account" routerLinkActive="active">
+        <span class="icon">&#128100;</span>
+        Account
+      </a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
