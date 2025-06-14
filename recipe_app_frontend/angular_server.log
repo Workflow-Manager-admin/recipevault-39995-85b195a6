@@ -7,98 +7,6 @@ The "disableHostCheck" option will not be used because it is not supported by th
 ❯ Building...
 ✔ Building...
 Browser bundles     
-Initial chunk files  | Names            |  Raw size
-polyfills.js         | polyfills        |  90.20 kB | 
-main.js              | main             |  22.59 kB | 
-styles.css           | styles           |  95 bytes | 
-
-                     | Initial total    | 112.88 kB
-
-
-Server bundles      
-Initial chunk files  | Names            |  Raw size
-polyfills.server.mjs | polyfills.server | 572.91 kB | 
-chunk-6XEG6CM6.mjs   | -                |  23.02 kB | 
-server.mjs           | server           |   1.39 kB | 
-main.server.mjs      | main.server      | 800 bytes | 
-
-Application bundle generation complete. [2.420 seconds]
-
-Watch mode enabled. Watching for file changes...
-NOTE: Raw file sizes do not reflect development server per-request transformations.
-  ➜  Local:   http://localhost:3000/
-  ➜  Network: http://172.17.0.2:3000/
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.269 seconds]
-
-✘ [ERROR] NG8002: Can't bind to 'routerLinkActiveOptions' since it isn't a known property of 'a'. [plugin angular-compiler]
-
-    src/app/app.component.html:8:57:
-      8 │ ...terLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-        ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:7:15:
-      7 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.162 seconds]
-
-✘ [ERROR] NG8002: Can't bind to 'routerLinkActiveOptions' since it isn't a known property of 'a'. [plugin angular-compiler]
-
-    src/app/app.component.html:8:57:
-      8 │ ...terLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-        ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:7:15:
-      7 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.301 seconds]
-
-✘ [ERROR] NG8002: Can't bind to 'routerLinkActiveOptions' since it isn't a known property of 'a'. [plugin angular-compiler]
-
-    src/app/app.component.html:8:57:
-      8 │ ...terLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-        ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:7:15:
-      7 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.004 seconds]
-
-✘ [ERROR] NG8002: Can't bind to 'routerLinkActiveOptions' since it isn't a known property of 'a'. [plugin angular-compiler]
-
-    src/app/app.component.html:8:57:
-      8 │ ...terLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-        ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:7:15:
-      7 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
 Initial chunk files  | Names                   |  Raw size
 polyfills.js         | polyfills               |  90.20 kB | 
 main.js              | main                    |   6.37 kB | 
@@ -126,6 +34,308 @@ chunk-JYL4CNCI.mjs   | category-list-component |   1.85 kB |
 chunk-TIA6AUSH.mjs   | recipe-list-component   |   1.84 kB | 
 chunk-ZZKOWJYG.mjs   | account-component       |   1.76 kB | 
 
-Application bundle generation complete. [0.334 seconds]
+Application bundle generation complete. [2.323 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  |  Raw size
+styles.css          | styles | 910 bytes | 
+
+Application bundle generation complete. [0.031 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |   6.70 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-NVHBZBCQ.mjs  | -           |   7.14 kB | 
+server.mjs          | server      |   1.42 kB | 
+main.server.mjs     | main.server | 831 bytes | 
+
+Application bundle generation complete. [0.390 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.181 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:10:23:
+      10 │         <ng-container *ngIf="isDarkTheme; else lightModeIcon">🌙...
+         ╵                        ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG9: Property 'toggleTheme' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.html:7:21:
+      7 │             (click)="toggleTheme()"
+        ╵                      ~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG9: Property 'isDarkTheme' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.html:8:31:
+      8 │ ...        [attr.aria-label]="isDarkTheme ? 'Switch to light mode' ...
+        ╵                               ~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG9: Property 'isDarkTheme' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.html:9:21:
+      9 │             [title]="isDarkTheme ? 'Light mode' : 'Dark mode'">
+        ╵                      ~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names                   |  Raw size
+polyfills.js         | polyfills               |  90.20 kB | 
+main.js              | main                    |   9.15 kB | 
+styles.css           | styles                  | 910 bytes | 
+chunk-YQOESBWP.js    | -                       | 754 bytes | 
+
+                     | Initial total           | 101.01 kB
+
+Lazy chunk files     | Names                   |  Raw size
+chunk-5MADJS2D.js    | category-list-component |   1.81 kB | 
+chunk-FCR6FW2S.js    | recipe-list-component   |   1.81 kB | 
+chunk-VGRHIVPZ.js    | account-component       |   1.73 kB | 
+
+
+Server bundles      
+Initial chunk files  | Names                   |  Raw size
+polyfills.server.mjs | polyfills.server        | 572.91 kB | 
+chunk-JUEMYOT6.mjs   | -                       |   9.59 kB | 
+server.mjs           | server                  |   1.42 kB | 
+main.server.mjs      | main.server             | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                       | 788 bytes | 
+
+Lazy chunk files     | Names                   |  Raw size
+chunk-JYL4CNCI.mjs   | category-list-component |   1.85 kB | 
+chunk-TIA6AUSH.mjs   | recipe-list-component   |   1.84 kB | 
+chunk-ZZKOWJYG.mjs   | account-component       |   1.76 kB | 
+
+Application bundle generation complete. [0.271 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:10:23:
+      10 │         <ng-container *ngIf="isDarkTheme; else lightModeIcon">🌙...
+         ╵                        ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names                 |  Raw size
+main.js             | main                  |   9.15 kB | 
+
+Lazy chunk files    | Names                 |  Raw size
+chunk-7FPAKOS6.js   | recipe-list-component |   1.84 kB | 
+
+
+Server bundles     
+Initial chunk files | Names                 |  Raw size
+chunk-YV2I76KH.mjs  | -                     |   9.59 kB | 
+server.mjs          | server                |   1.42 kB | 
+main.server.mjs     | main.server           | 831 bytes | 
+
+Lazy chunk files    | Names                 |  Raw size
+chunk-2WNQJS64.mjs  | recipe-list-component |   1.87 kB | 
+
+Application bundle generation complete. [0.193 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:10:23:
+      10 │         <ng-container *ngIf="isDarkTheme; else lightModeIcon">🌙...
+         ╵                        ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+ERROR ReferenceError: localStorage is not defined
+    at _AppComponent.ngOnInit (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/src/app/app.component.ts:25:25)
+    at callHookInternal (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14784:10)
+    at callHook (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14799:7)
+    at callHooks (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14773:9)
+    at executeInitAndCheckHooks (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14742:5)
+    at refreshView (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20532:11)
+    at detectChangesInView (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20691:5)
+    at detectChangesInViewWhileDirty (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20465:5)
+    at detectChangesInternal (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20449:5)
+    at detectChangesInViewIfRequired (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:26962:3)
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'ng-container' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngIfElse' since it isn't a known property of 'ng-container' (used in the '_AppComponent' component template).
+1. If 'ng-container' is an Angular component and it has the 'ngIfElse' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'ng-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+ERROR ReferenceError: localStorage is not defined
+    at _AppComponent.ngOnInit (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/src/app/app.component.ts:25:25)
+    at callHookInternal (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14784:10)
+    at callHook (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14799:7)
+    at callHooks (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14773:9)
+    at executeInitAndCheckHooks (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:14742:5)
+    at refreshView (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20532:11)
+    at detectChangesInView (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20691:5)
+    at detectChangesInViewWhileDirty (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20465:5)
+    at detectChangesInternal (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:20449:5)
+    at detectChangesInViewIfRequired (/home/kavia/workspace/code-generation/recipevault-39995-85b195a6/recipe_app_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:26962:3)
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'ng-container' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngIfElse' since it isn't a known property of 'ng-container' (used in the '_AppComponent' component template).
+1. If 'ng-container' is an Angular component and it has the 'ngIfElse' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'ng-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names                   |  Raw size
+main.js             | main                    |   9.15 kB | 
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-P4KEPMQM.js   | category-list-component |   1.84 kB | 
+
+
+Server bundles     
+Initial chunk files | Names                   |  Raw size
+chunk-5WB3KSX7.mjs  | -                       |   9.59 kB | 
+server.mjs          | server                  |   1.42 kB | 
+main.server.mjs     | main.server             | 831 bytes | 
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-E5QJDVZ4.mjs  | category-list-component |   1.88 kB | 
+
+Application bundle generation complete. [0.219 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:10:23:
+      10 │         <ng-container *ngIf="isDarkTheme; else lightModeIcon">🌙...
+         ╵                        ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names             |  Raw size
+main.js             | main              |   9.15 kB | 
+
+Lazy chunk files    | Names             |  Raw size
+chunk-QQ6WYYZ6.js   | account-component |   1.76 kB | 
+
+
+Server bundles     
+Initial chunk files | Names             |  Raw size
+chunk-ZJXY5ADE.mjs  | -                 |   9.59 kB | 
+server.mjs          | server            |   1.42 kB | 
+main.server.mjs     | main.server       | 831 bytes | 
+
+Lazy chunk files    | Names             |  Raw size
+chunk-4YHUXEHC.mjs  | account-component |   1.79 kB | 
+
+Application bundle generation complete. [0.146 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:10:23:
+      10 │         <ng-container *ngIf="isDarkTheme; else lightModeIcon">🌙...
+         ╵                        ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |   9.63 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-ME6LNLLT.mjs  | -           |  10.07 kB | 
+server.mjs          | server      |   1.42 kB | 
+main.server.mjs     | main.server | 831 bytes | 
+
+Application bundle generation complete. [0.415 seconds]
+
+Page reload sent to client(s).
+2:03:46 AM [vite] (client) ✨ new dependencies optimized: @angular/common
+2:03:46 AM [vite] (client) ✨ optimized dependencies changed. reloading
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |   9.43 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-7MR7GWUH.mjs  | -           |   9.87 kB | 
+server.mjs          | server      |   1.42 kB | 
+main.server.mjs     | main.server | 831 bytes | 
+
+Application bundle generation complete. [0.332 seconds]
 
 Page reload sent to client(s).

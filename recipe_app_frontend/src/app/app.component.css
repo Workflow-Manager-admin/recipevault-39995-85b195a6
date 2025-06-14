@@ -1,14 +1,4 @@
-:root {
-  --primary: #4caf50;
-  --secondary: #ffc107;
-  --accent: #ff5722;
-  --sidebar-bg: #f4f6fa;
-  --sidebar-border: #e0e0e0;
-  --content-bg: #fff;
-  --text-main: #222;
-  --text-muted: #7d7d7d;
-  --active-bg: #e8faed;
-}
+/* Main container/layout styles for RecipeVault: fully references palette variables. */
 
 html, body {
   margin: 0;
@@ -43,6 +33,29 @@ html, body {
   letter-spacing: 0.05em;
   padding: 1.2rem 1.5rem 1rem 1.5rem;
   border-bottom: 1px solid var(--sidebar-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme-toggle-btn {
+  background: none;
+  border: 1px solid var(--sidebar-border);
+  border-radius: 2rem;
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-left: 0.75rem;
+  padding: 0.2em 0.95em;
+  cursor: pointer;
+  outline: none;
+  min-width: 2.2rem;
+  transition: background 0.18s;
+}
+
+.theme-toggle-btn:focus, .theme-toggle-btn:hover {
+  background: var(--active-bg);
+  color: var(--accent);
+  border-color: var(--primary);
 }
 
 .nav {

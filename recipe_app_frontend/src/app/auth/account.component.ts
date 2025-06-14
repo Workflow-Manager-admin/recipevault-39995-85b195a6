@@ -21,10 +21,10 @@ import { Component } from '@angular/core';
     .placeholder-card {
       padding: 2.5rem 1.5rem;
       margin: 2rem 0 0 0;
-      background: #fff7f3;
-      border: 1px solid #ffc8bc;
+      background: var(--active-bg);
+      border: 1px solid var(--sidebar-border);
       border-radius: 0.9rem;
-      color: #a94125;
+      color: var(--accent);
       font-size: 1.12rem;
     }
   `]

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
+  /* Light theme colors */
   --primary: #4caf50;
   --secondary: #ffc107;
   --accent: #ff5722;
@@ -18,4 +19,26 @@ body {
   background: var(--content-bg);
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   color: var(--text-main);
+}
+
+/* Dark theme support */
+body.dark-theme,
+:root.dark-theme {
+  --primary: #7ed957;
+  --secondary: #ffe57f;
+  --accent: #ff7b3a;
+  --sidebar-bg: #232829;
+  --sidebar-border: #394044;
+  --content-bg: #181c1e;
+  --text-main: #f3f8f6;
+  --text-muted: #97a3ac;
+  --active-bg: #203128;
+}
+
+/* Smooth transition for all theme variables */
+body,
+body.dark-theme,
+:root,
+:root.dark-theme {
+  transition: background 0.25s, color 0.22s;
 }

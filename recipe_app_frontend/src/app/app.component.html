@@ -3,6 +3,13 @@
   <aside class="sidebar">
     <div class="sidebar-header">
       <span class="brand">RecipeVault</span>
+      <button class="theme-toggle-btn"
+            (click)="toggleTheme()"
+            [attr.aria-label]="isDarkTheme ? 'Switch to light mode' : 'Switch to dark mode'"
+            [title]="isDarkTheme ? 'Light mode' : 'Dark mode'">
+        <ng-container *ngIf="isDarkTheme; else lightModeIcon">🌙</ng-container>
+        <ng-template #lightModeIcon>☀️</ng-template>
+      </button>
     </div>
     <nav class="nav">
       <a routerLink="/recipes" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
